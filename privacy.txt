@@ -1,0 +1,142 @@
+Minimal Text Composer provides a distraction-free writing overlay on any webpage, allowing users to write and take notes without leaving their current browser tab.
+Privacy Practices:
+
+Data Collection
+This extension does NOT collect, store, or transmit any user data. All text entered in the writing modal exists only in your browser's memory during the current session and is immediately discarded when you close the modal or navigate away from the page.
+Permissions Justification
+"scripting" permission:
+
+Required to inject the writing modal interface into webpages when you click the extension icon. This permission only activates when you explicitly trigger the extension.
+"<all_urls>" host permission:
+
+Allows the extension to work on any website you visit. The extension only injects content when you actively click the extension icon - it does not run automatically or in the background on pages.
+Data Usage
+No data usage. The extension:
+- Does NOT save your writing to disk or cloud
+- Does NOT send data to external servers
+- Does NOT track your browsing or typing behavior
+- Does NOT use analytics or telemetry
+- Does NOT require user accounts or authentication
+
+Your text stays private and exists only in memory while the modal is open.
+Certification
+☑ This extension does not collect or use user data
+☑ This extension is not used or transferred for purposes unrelated to its core functionality
+☑ This extension is not used or transferred to determine creditworthiness or for lending purposes
+Additional notes for reviewers:
+
+The extension is completely client-side with no backend services
+Source code review will show no network requests or storage API calls
+The extension only runs when explicitly activated by user click
+No third-party libraries or tracking code included
+URl of the privacy page?
+
+2:56 PM
+Puedes usar cualquiera de estas opciones:
+
+Opción 1: GitHub Pages (Recomendado - Gratis y Profesional)
+Crea un repositorio público en GitHub llamado minimal-text-composer
+Sube un archivo privacy.html o PRIVACY.md
+Activa GitHub Pages en Settings → Pages
+Tu URL será:
+https://tu-usuario.github.io/minimal-text-composer/privacy.html
+Opción 2: Gist de GitHub (Más Rápido)
+Ve a https://gist.github.com
+Crea un gist público con el contenido de privacidad
+Usa la URL del gist:
+https://gist.github.com/tu-usuario/id-del-gist
+Opción 3: Página HTML Simple
+¿Quieres que te cree un archivo HTML listo para subir a cualquier hosting gratuito? Puedo hacerte:
+
+Una página de privacidad responsive y profesional
+Lista para subir a Netlify, Vercel, GitHub Pages, etc.
+Opción 4: Si no quieres hosting
+Algunos desarrolladores usan:
+
+El README del repositorio de GitHub
+Google Docs (pero no es muy profesional)
+Notion (público)
+Mi recomendación: GitHub Pages es gratis, confiable, y se ve profesional. ¿Quieres que te prepare el archivo HTML de la página de privacidad lista para subir?
+
+Create text for privacy.md
+
+2:58 PM
+markdown
+# Privacy Policy for Minimal Text Composer
+
+**Last Updated:** January 2, 2026
+
+## Overview
+
+Minimal Text Composer is a browser extension that provides a distraction-free writing overlay on webpages. We are committed to protecting your privacy and being transparent about our practices.
+
+## Data Collection
+
+**We collect ZERO data.**
+
+Minimal Text Composer does not:
+- Collect any personal information
+- Store any text you write
+- Track your browsing activity
+- Send data to external servers
+- Use cookies or tracking technologies
+- Require user accounts or authentication
+- Use analytics or telemetry
+
+## How the Extension Works
+
+When you click the extension icon:
+1. A writing modal appears over your current webpage
+2. Any text you type exists only in your browser's temporary memory
+3. When you close the modal or navigate away, all text is immediately discarded
+4. Nothing is saved to disk, cloud storage, or transmitted anywhere
+
+## Permissions Explanation
+
+The extension requests the following permissions:
+
+### "scripting" Permission
+**Purpose:** Allows the extension to inject the writing modal interface into webpages when you click the extension icon.
+
+**Usage:** Only activates when you explicitly trigger the extension. Does not run automatically or monitor your activity.
+
+### "<all_urls>" Host Permission
+**Purpose:** Enables the extension to work on any website you visit.
+
+**Usage:** The extension only injects content when you actively click the extension icon. It does not run in the background or access page content without your action.
+
+## Data Storage
+
+**Local Storage:** None. The extension does not use browser storage APIs (localStorage, sessionStorage, IndexedDB, etc.).
+
+**Memory Only:** Text exists solely in JavaScript memory while the modal is open and is immediately garbage-collected when closed.
+
+## Third-Party Services
+
+This extension does not:
+- Connect to any external APIs or services
+- Include third-party analytics
+- Use Content Delivery Networks (CDNs) for runtime functionality
+- Communicate with backend servers
+
+## Changes to This Policy
+
+If we ever change our privacy practices, we will update this policy and the "Last Updated" date. Any changes will be reflected in extension updates distributed through the Chrome Web Store.
+
+## Compliance
+
+This extension complies with:
+- Chrome Web Store Developer Program Policies
+- Google API Services User Data Policy
+- General Data Protection Regulation (GDPR)
+- California Consumer Privacy Act (CCPA)
+
+## Your Rights
+
+Since we don't collect any data, there is no data to:
+- Access
+- Delete
+- Export
+- Modify
+
+Your privacy is inherently protected because no data about you ever leaves your browser.
